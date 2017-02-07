@@ -12,17 +12,11 @@ if ( $method == 'POST' ) {
 	$phone = $_POST["phone"];
 	$email = $_POST["email"];
 	$time = $_POST["time"];
-	
-if (!preg_match("|^([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})|is", 
-strtolower($email))) {
-	echo '';
-} else {
 	$msg="ФОРМА: $whatform
 		Имя: $name
 		E-mail: $email 
 		Телефон: $phone
 		Время: $time";
-}
 mail("$admin_email", "Сообщение 
 от $name", "$msg"); 
 

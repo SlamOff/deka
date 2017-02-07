@@ -1,7 +1,6 @@
 <head>
 	
 	<meta http-equiv="refresh" content="0; url=thanks.html" />
-	<!--<meta http-equiv="refresh" content="0; url=http://maximabridal.com/thanks.html" />-->
 
 </head>
 
