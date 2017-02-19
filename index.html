@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="utf-8" />
 	<title>Project Name</title>
@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="icon" type="image/ico" href="fav.ico" />
-	<script src="https://use.fontawesome.com/754c064b29.js"></script>
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
@@ -48,7 +47,7 @@
 	<div class="hidden">
 		<div class="form_wrapper" id="">
 			<h6>Заполните форму</h6>
-			<p>и наш менеджер перезвонит Вам в течение 5 минут, чтобы ответить на  все Ваши вопросы</p>
+			<p>и наш менеджер перезвонит Вам в течение 5 минут, чтобы ответить на все Ваши вопросы</p>
 			<form method="post" class="form" id="" action="mail.php">
 				<input type="hidden" name="project_name" value="Alfa filter" />
 				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
@@ -69,23 +68,211 @@
 					<img src="img/logo.png" alt="">
 				</div>
 				<div class="col-md-3 desc">
-					
+					Часы от самых известных <br>мировых брендов
 				</div>
 				<div class="col-md-4 top_phone">
-					
+					<a href="tel:+380800211652?call">0 800 211-652</a>
 				</div>
 				<div class="col-md-3 top_btn">
-					<a href="" class="popup"><button></button></a>
+					<a href="" class="popup"><button>Давайте мы перезвоним</button></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7">
+					<h1>Продажа оригинальных брендовых часов</h1>
+					<h2>от лучших швейцарских, американских <br>и японских производителей</h2>
+					<ul>
+						<li>Более 7000 моделей в наличии</li>
+						<li>Прямые поставки от 50 ведущих брендов</li>
+						<li>Бесплатная доставка по всей Украине</li>
+						<li>Гарантия от производителя до 2 лет + гарантия от магазина DEKA</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</header>
 	<!-- END Header-->
-	<section class="">
+
+	<!-- search -->
+	<section class="search">
 		<div class="container">
-			
+			<h3>Ищете идеальный подарок себе или знакомым?</h3>
+			<h4>Заполните форму, наш менеджер свяжется с Вами <br>и подготовит персональное предложение, которое Вам понравится</h4>
+			<div class="row">
+				<form method="post" action="mail.php" id="searchForm" class="form">
+					<input type="hidden" name="project_name" value="Deka" />
+					<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+					<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
+					<div class="col-md-3">
+						<input type="text" name="name" placeholder="Ваше имя" />
+					</div>
+					<div class="col-md-3">
+						<input type="email" name="email" placeholder="Ваш email" />
+					</div>
+					<div class="col-md-3">
+						<input type="tel" name="phone" class="phone" placeholder="Ваш телефон" />
+					</div>
+					<div class="col-md-3">
+						<button class="btn_red" type="submit">Получить предложение</button>
+					</div>
+				</form>
+			</div>
 		</div>
 	</section>
+	<!-- END search -->
+
+	<!-- achieve -->
+	<section class="achieve">
+		<div class="container">
+			<h3>Дека</h3>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="achieve_item">
+						<h4>25 лет на рынке</h4>
+						<p>За 25 лет работы в Украине более 100 000 покупателей стали нашими постоянными клиентами. Мы являемся крупнейшей сетью магазинов по продаже брендовых часов самых известных марок.</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="achieve_item">
+						<h4>Более 40 магазинов <br>по всей Украине</h4>
+						<p>У нас более 40 магазинов по всей Украине. Вы можете прийти в любой из наших магазинов, подобрать, примерить и приобрести понравившиеся Вам часы.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="achieve_item">
+						<h4>Официальные и эксклюзивные  представители</h4>
+						<p>Мы являемся официальными и эксклюзивными представителями более 50 брендов, среди которых: Armani, Casio, Maurice Lacroix, Michael Kors, <br>Raymond Weil и другие.</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="achieve_item">
+						<h4>Сервисное <br>обслуживание</h4>
+						<p>У нас самый крупный сертифицированный центр <br>в Украине по обслуживанию и ремонту часов. Осуществляем гарантийный и послегарантийный <br>ремонт любой сложности.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END achieve -->
+	
+	<!-- buy -->
+	<section class="buy">
+		<div class="container">
+			<h3>Приобретая часы у нас, Вы получаете</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<h4>Статус <br>и безупречный стиль</h4>
+					<p>Наши специалисты подберут часы персонально под Вас, учитывая Ваш вкус и пожелания, <br>что подчеркнет ваш статус и безупречный стиль.</p>
+				</div>
+				<div class="col-sm-offset-2 col-sm-6">
+					<img class="buy_img" src="img/buy_1.jpg" alt="">
+					<div class="buy_mask"></div>
+					<div class="upper_buy"></div>
+					<div class="lower_buy"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="buy_img" src="img/buy_2.jpg" alt="">
+					<div class="buy_mask"></div>
+					<div class="upper_buy"></div>
+					<div class="lower_buy"></div>
+				</div>
+				<div class="col-sm-4 col-sm-offset-1">
+					<h4>Оригинальную <br>продукцию</h4>
+					<p>У нас только оригинальная продукция, поскольку мы являемся официальными <br>и эксклюзивными представителями самых известных мировых брендов в Украине.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<h4>Самый большой выбор <br>в Украине</h4>
+					<p>У нас Вы можете подобрать часы на любой вкус, в любом стиле и разной ценовой категории — как для ценителей швейцарского качества <br>и престижа, так и сторонников японской точности и надежности.</p>
+				</div>
+				<div class="col-sm-offset-2 col-sm-6">
+					<img class="buy_img" src="img/buy_3.jpg" alt="">
+					<div class="buy_mask"></div>
+					<div class="upper_buy"></div>
+					<div class="lower_buy"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="buy_img" src="img/buy_4.jpg" alt="">
+					<div class="buy_mask"></div>
+					<div class="upper_buy"></div>
+					<div class="lower_buy"></div>
+				</div>
+				<div class="col-sm-4 col-sm-offset-1">
+					<h4>Бесплатную <br>доставку</h4>
+					<p>Доставку осуществляем любым удобным <br>для Вас способом. Вы платите только <br>за часы, все расходы за доставку <br>мы берем на себя!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END buy -->
+
+	<!-- brand -->
+	<section class="brand">
+		<div class="container">
+			<h3>Представляем бренды, признанные во всем мире</h3>
+			<div class="row">
+				<div class="slider_wrapper clearfix">
+					<div class="prev brand_prev"></div>
+					<div class="next brand_next"></div>
+					<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
+					<div class="brand_slider">
+						<div class="brand_item">
+							<img src="img/brand_1.jpg" alt="">
+						</div>
+						<div class="brand_item">
+							<img src="img/brand_2.jpg" alt="">
+						</div>
+						<div class="brand_item">
+							<img src="img/brand_3.jpg" alt="">
+						</div>
+						<div class="brand_item">
+							<img src="img/brand_4.jpg" alt="">
+						</div>
+						<div class="brand_item">
+							<img src="img/brand_5.jpg" alt="">
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END brand -->
+
+	<!-- product -->
+	<section class="product">
+		
+	</section>
+	<!-- END product -->
+
+	<!-- help -->
+	<section class="help">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3>Нужна помощь в подборе часов?</h3>
+					<a href="#" class="popup"><button class="btn_product">Получить помощь</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END help -->
+	
+	<!-- share -->
+	<section class="share">
+		
+	</section>
+	<!-- END share -->
+
+
+
 
 	<footer>
 		<div class="container">

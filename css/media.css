@@ -2,24 +2,49 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
-
+	html {
+			font-size: 9px;
+		}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+	html {
+		font-size: 8px;
+	}
 	footer .row div  {
 		text-align: center;
 	}
+	footer p 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+	html {
+		font-size: 7px;
+	}
+	.brand .prev {
+		left: 15px;
+		top: 35px;
+	}
+	.brand .next {
+		right: 15px;
+		top: 35px;
+	}
+	.help button {
+		max-width: 270px;
+	}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	html {
+		font-size: 6px;
+	}
+	.help button {
+		max-width: 220px;
+	}
 }
 
 /* Custom, iPhone Retina */

@@ -1,32 +1,32 @@
 @font-face {
-	font-family: "PFDisplayPro-Black";
+	font-family: "PFDinDisplayPro-Black";
 	src: url("../fonts/PFDinDisplayPro-Black.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Bold";
+	font-family: "PFDinDisplayPro-Bold";
 	src: url("../fonts/PFDinDisplayPro-Bold.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Light";
+	font-family: "PFDinDisplayPro-Light";
 	src: url("../fonts/PFDinDisplayPro-Light.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Italic";
+	font-family: "PFDinDisplayPro-Italic";
 	src: url("../fonts/PFDinDisplayPro-Italic.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Med";
+	font-family: "PFDinDisplayPro-Med";
 	src: url("../fonts/PFDinDisplayPro-Med.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Thin";
+	font-family: "PFDinDisplayPro-Thin";
 	src: url("../fonts/PFDinDisplayPro-Thin.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-XThin";
+	font-family: "PFDinDisplayPro-XThin";
 	src: url("../fonts/PFDinDisplayPro-XThin.ttf") format("truetype");
 }
 @font-face {
-	font-family: "PFDisplayPro-Reg";
+	font-family: "PFDinDisplayPro-Reg";
 	src: url("../fonts/PFDinDisplayPro-Reg.ttf") format("truetype");
 }

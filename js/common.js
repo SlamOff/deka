@@ -25,7 +25,32 @@ $(document).ready(function() {
 		$('.phone').mask('+38(099) 999-9999');
 	});
 
-
+	$('.brand_slider').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		prevArrow: '.brand_prev',
+		nextArrow: '.brand_next',
+		responsive: [
+			{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4
+			}
+			},
+			{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3
+			}
+			},
+			{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+			}
+		]
+	});
 
 	/*
 	//slick carousel
