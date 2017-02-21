@@ -13,6 +13,11 @@ $(document).ready(function() {
 	// ScrollTo
 	$('.navbar-collapse a').mPageScroll2id();
 	*/
+	// tabs
+	$('#tabs').tabs();
+
+
+	
 
 
 	//popup
@@ -48,10 +53,15 @@ $(document).ready(function() {
 			settings: {
 				slidesToShow: 2
 			}
+			},
+			{
+			breakpoint: 580,
+			settings: {
+				slidesToShow: 1
+			}
 			}
 		]
 	});
-
 	
 	//slick carousel
 	$('.dipl_slider').slick({
@@ -87,7 +97,34 @@ $(document).ready(function() {
 			{
 			breakpoint: 992,
 			settings: {
+				dots: false
+			}
+			}
+		]
+	});
+
+	$('.product_cheap_slider').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: '.product_cheap_prev',
+		nextArrow: '.product_cheap_next',
+		responsive: [
+			{
+			breakpoint: 992,
+			settings: {
 				slidesToShow: 3
+			}
+			},
+			{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+			},
+			{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1
 			}
 			}
 		]

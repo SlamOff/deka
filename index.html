@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8" />
-	<title>Project Name</title>
+	<title>ДЕКА - Часы от самых известных мировых брендов</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
@@ -48,14 +48,14 @@
 		<div class="form_wrapper" id="">
 			<h6>Заполните форму</h6>
 			<p>и наш менеджер перезвонит Вам в течение 5 минут, чтобы ответить на все Ваши вопросы</p>
-			<form method="post" class="form" id="" action="mail.php">
-				<input type="hidden" name="project_name" value="Alfa filter" />
+			<form method="post" class="form" id="shareForm" action="mail.php">
+				<input type="hidden" name="project_name" value="DEKA" />
 				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
 				<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
 				<input type="text" name="name" placeholder="Имя" />
-				<input type="tel" name="phone" class="phone" placeholder="Телефон" />
 				<input type="email" name="email" placeholder="E-mail" />
-				<button>Задать вопрос специалисту</button>
+				<input type="tel" name="phone" class="phone" placeholder="Телефон" />
+				<button class="btn_red">Активировать дисконт</button>
 			</form>
 		</div>
 	</div>
@@ -64,16 +64,16 @@
 	<header>
 		<div class="container">
 			<div class="row top_head">
-				<div class="col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2 logo">
 					<img src="img/logo.png" alt="">
 				</div>
-				<div class="col-md-3 desc">
+				<div class="col-xs-4 col-sm-3 col-md-3 desc">
 					Часы от самых известных <br>мировых брендов
 				</div>
-				<div class="col-md-4 top_phone">
+				<div class="col-xs-4 col-sm-3 col-md-4 top_phone">
 					<a href="tel:+380800211652?call">0 800 211-652</a>
 				</div>
-				<div class="col-md-3 top_btn">
+				<div class="col-sm-3 col-md-3 top_btn">
 					<a href="" class="popup"><button>Давайте мы перезвоним</button></a>
 				</div>
 			</div>
@@ -103,16 +103,16 @@
 					<input type="hidden" name="project_name" value="Deka" />
 					<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
 					<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<input type="text" name="name" placeholder="Ваше имя" />
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<input type="email" name="email" placeholder="Ваш email" />
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<input type="tel" name="phone" class="phone" placeholder="Ваш телефон" />
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<button class="btn_red" type="submit">Получить предложение</button>
 					</div>
 				</form>
@@ -162,11 +162,11 @@
 		<div class="container">
 			<h3>Приобретая часы у нас, Вы получаете</h3>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-5 col-md-4">
 					<h4>Статус <br>и безупречный стиль</h4>
 					<p>Наши специалисты подберут часы персонально под Вас, учитывая Ваш вкус и пожелания, <br>что подчеркнет ваш статус и безупречный стиль.</p>
 				</div>
-				<div class="col-sm-offset-2 col-sm-6">
+				<div class="col-sm-6 col-sm-offset-1 col-md-offset-2 col-md-6">
 					<img class="buy_img" src="img/buy_1.jpg" alt="">
 					<div class="buy_mask"></div>
 					<div class="upper_buy"></div>
@@ -174,23 +174,25 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 col-md-6">
+					<h4 class="mobile_buy">Оригинальную <br>продукцию</h4>
+					<p class="mobile_buy">У нас только оригинальная продукция, поскольку мы являемся официальными <br>и эксклюзивными представителями самых известных мировых брендов в Украине.</p>
 					<img class="buy_img" src="img/buy_2.jpg" alt="">
 					<div class="buy_mask"></div>
 					<div class="upper_buy"></div>
 					<div class="lower_buy"></div>
 				</div>
-				<div class="col-sm-4 col-sm-offset-1">
-					<h4>Оригинальную <br>продукцию</h4>
-					<p>У нас только оригинальная продукция, поскольку мы являемся официальными <br>и эксклюзивными представителями самых известных мировых брендов в Украине.</p>
+				<div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1">
+					<h4 class="desktop_buy">Оригинальную <br>продукцию</h4>
+					<p class="desktop_buy">У нас только оригинальная продукция, поскольку мы являемся официальными <br>и эксклюзивными представителями самых известных мировых брендов в Украине.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-5 col-md-4">
 					<h4>Самый большой выбор <br>в Украине</h4>
 					<p>У нас Вы можете подобрать часы на любой вкус, в любом стиле и разной ценовой категории — как для ценителей швейцарского качества <br>и престижа, так и сторонников японской точности и надежности.</p>
 				</div>
-				<div class="col-sm-offset-2 col-sm-6">
+				<div class="col-sm-6 col-sm-offset-1 col-md-offset-2 col-md-6">
 					<img class="buy_img" src="img/buy_3.jpg" alt="">
 					<div class="buy_mask"></div>
 					<div class="upper_buy"></div>
@@ -198,15 +200,17 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 col-md-6">
+					<h4 class="mobile_buy">Бесплатную <br>доставку</h4>
+					<p class="mobile_buy">Доставку осуществляем любым удобным <br>для Вас способом. Вы платите только <br>за часы, все расходы за доставку <br>мы берем на себя!</p>
 					<img class="buy_img" src="img/buy_4.jpg" alt="">
 					<div class="buy_mask"></div>
 					<div class="upper_buy"></div>
 					<div class="lower_buy"></div>
 				</div>
-				<div class="col-sm-4 col-sm-offset-1">
-					<h4>Бесплатную <br>доставку</h4>
-					<p>Доставку осуществляем любым удобным <br>для Вас способом. Вы платите только <br>за часы, все расходы за доставку <br>мы берем на себя!</p>
+				<div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1">
+					<h4 class="desktop_buy">Бесплатную <br>доставку</h4>
+					<p class="desktop_buy">Доставку осуществляем любым удобным <br>для Вас способом. Вы платите только <br>за часы, все расходы за доставку <br>мы берем на себя!</p>
 				</div>
 			</div>
 		</div>
@@ -248,7 +252,64 @@
 
 	<!-- product -->
 	<section class="product">
-		
+		<div class="container">
+			<h3>Лидеры продаж</h3>
+			<div id="tabs">
+				<ul class="row">
+					<li class="col-sm-4"><a href="#tab_1"><button class="btn_tab">Мужские часы</button></a></li>
+					<li class="col-sm-4"><a href="#tab_2"><button class="btn_tab">Женские часы</button></a></li>
+					<li class="col-sm-4"><a href="#tab_3"><button class="btn_tab">Спортивные часы</button></a></li>
+				</ul>
+				<h4>Часы от 1000 грн</h4>
+				<div id="tab_1">
+					<div class="tab row">
+						<div class="slider_wrapper clearfix">
+							<div class="prev product_prev product_cheap_prev"></div>
+							<div class="next product_next product_cheap_next"></div>
+							<div class="product_slider product_cheap_slider">
+								<div class="product_item col-xs-6 col-sm-4 col-md-3">
+									<h5>123</h5>
+									<div class="product_photo">
+										<img src="img/cheap_1.jpg" alt="">
+									</div>
+									<a href="#" class="popup"><button class="btn_product">Узнать стоимость</button></a>
+								</div>
+								<div class="product_item col-xs-6 col-sm-4 col-md-3">
+									<h5>123</h5>
+									<div class="product_photo">
+										<img src="img/cheap_1.jpg" alt="">
+									</div>
+									<a href="#" class="popup"><button class="btn_product">Узнать стоимость</button></a>
+								</div>
+								<div class="product_item col-xs-6 col-sm-4 col-md-3">
+									<h5>123</h5>
+									<div class="product_photo">
+										<img src="img/cheap_1.jpg" alt="">
+									</div>
+									<a href="#" class="popup"><button class="btn_product">Узнать стоимость</button></a>
+								</div>
+								<div class="product_item col-xs-6 col-sm-4 col-md-3">
+									<h5>123</h5>
+									<div class="product_photo">
+										<img src="img/cheap_1.jpg" alt="">
+									</div>
+									<a href="#" class="popup"><button class="btn_product">Узнать стоимость</button></a>
+								</div>
+								<div class="product_item col-xs-6 col-sm-4 col-md-3">
+									<h5>123</h5>
+									<div class="product_photo">
+										<img src="img/cheap_1.jpg" alt="">
+									</div>
+									<a href="#" class="popup"><button class="btn_product">Узнать стоимость</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab_2"></div>
+				<div id="tab_3"></div>
+			</div>
+		</div>
 	</section>
 	<!-- END product -->
 
@@ -274,12 +335,12 @@
 					<p>и получайте <span>скидку до 20%</span> <br>на любые часы из нашего каталога</p>
 					<em>До конца акции осталось</em>
 				</div>
-				<div class="col-lg-4 col-lg-offset-2">
-					<div class="form_wrapper">
+				<div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
+					<div class="form_wrapper" id="shareFormWrapper">
 						<h6>Заполните форму</h6>
 						<p>для активации дисконтной программы лояльности <br>на Ваше имя.</p>
-						<form method="post" class="form" id="" action="mail.php">
-							<input type="hidden" name="project_name" value="Alfa filter" />
+						<form method="post" class="form" id="shareForm" action="mail.php">
+							<input type="hidden" name="project_name" value="DEKA" />
 							<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
 							<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
 							<input type="text" name="name" placeholder="Имя" />
@@ -289,6 +350,7 @@
 						</form>
 						<p class="safety">Безопасность данных гарантируем. Ваши данные никогда не будут переданы третьим лицам.</p>
 					</div>
+					<a href="#shareFormWrapper" class="popup"><button class="hidden visible-xs btn_red">Активировать дисконт</button></a>
 				</div>
 			</div>
 		</div>
@@ -357,7 +419,24 @@
 	</section>
 	<!-- END review -->
 
-
+	<!-- contact -->
+	<section class="contact">
+		<div class="container">
+			<h3>Наши контакты</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<p>Телефон: <br><span><a href="tel:+380800211652">0 800 211-652</a></span></p>
+				</div>
+				<div class="col-sm-4">
+					<a href="#" class="popup"><button class="btn_red">Найти ближайший магазин</button></a>
+				</div>
+				<div class="col-sm-4">
+					<p>E-mail: <br><span><a href="mailto:ishop@deka.ua">ishop@deka.ua</a></span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END contact -->
 
 
 
@@ -369,7 +448,7 @@
 				</div>
 				<div class="col-sm-6 col-xs-12 copyright">
 					<span><a class="popup" href="#politics">Политика конфиденциальности</a></span>
-					<p>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> "". Все права защищены</p>
+					<p>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> "ДЕКА". Все права защищены</p>
 				</div>
 				<div class="col-sm-3 col-xs-12 made_by">
 					<p>Проект разработан</p>
